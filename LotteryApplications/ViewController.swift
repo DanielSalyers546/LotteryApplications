@@ -15,6 +15,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         super.viewDidLoad()
         numberGenerator()
         print(lotteryNumberArray)
+        print("Got a number one victory royale Yeah fortnite we bout to get down (get down) Ten kills on the board right now Just wiped out tomato town My friends just go down I’ve revived him now we’re heading south bound Now we’re in the pleasant park streets Look at the map go to the mark sheets Take me to your Xbox to play fortnite today You can take me to moist mire but not loot lake I would really love to, chug with you We can be pro fortnite gamers")
+
     }
     
     func numberGenerator() {
