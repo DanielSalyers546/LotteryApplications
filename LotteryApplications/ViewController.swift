@@ -36,11 +36,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return lotteryNumberArray.count
     }
     
+    //Made a change to the output text
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellId")!
         let text = lotteryNumberArray[indexPath.row]
         let detailText = "Week \(indexPath.row + 1)"
-        cell.textLabel?.text = "Your numbers are: \(text)"
+        cell.textLabel?.text = "Your MEGA SUPER numbers are: \(text)"
         cell.detailTextLabel?.text = String(detailText)
         return cell
         
